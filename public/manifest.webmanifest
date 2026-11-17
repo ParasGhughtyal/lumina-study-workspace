@@ -1,0 +1,15 @@
+{
+  "name": "Lumina — Learning Workspace",
+  "short_name": "Lumina",
+  "description": "A focused, local-first learning workspace: documents, an AI study assistant, knowledge graphs and notes.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b0c0d",
+  "theme_color": "#0b0c0d",
+  "orientation": "any",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
