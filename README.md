@@ -25,7 +25,7 @@ Everything is stored locally in your browser (IndexedDB). No backend, no account
 
 ## AI configuration
 
-The app is configured out of the box with a **Google Gemini** key and starts in full AI mode, so a fresh deployment works without setup. Answers stream in as they're generated. **Demo mode** is also available for local, context-aware answers with no API calls.
+The app uses **Google Gemini** when a key is supplied and streams answers as they are generated. Without a configured key, it remains usable in local demo mode with context-aware answers and no API calls.
 
 To use a key, open **Settings** and paste it, or set `VITE_GEMINI_API_KEY` at build time (see `.env.example`). Presets for Gemini, Groq, OpenRouter and OpenAI are included. **Reset to default** restores the configured defaults, including the build-time key if one is set.
 
